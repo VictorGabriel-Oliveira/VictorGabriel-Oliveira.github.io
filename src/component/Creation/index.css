@@ -1,0 +1,43 @@
+.creations{
+    width: 80vw;
+    color: hsl(0, 0%, 100%);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px;
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+    
+}
+.creations p {
+    
+    font-family: 'josefin Sans', sans-serif;
+    position: relative;
+    top:  +40px;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+      
+}
+
+.desktop .creations{
+    height: 400px;
+    width: 200px;
+    position: relative;
+    
+}
+
+.desktop .creations p{
+    width: 200px;
+    top: +300px;
+    font-size: 30px;
+    font-weight: 400;
+}

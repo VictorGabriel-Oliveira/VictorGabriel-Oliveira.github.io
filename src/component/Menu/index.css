@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+.menu{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(0, 0%, 0%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.menu_main{
+    display: flex ;
+    flex-direction: column;
+    align-self: center;
+
+    margin: auto;
+    margin-left: 50px;
+}
+
+.menu_main a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: larger;
+    margin-bottom: 20px;
+    
+}
