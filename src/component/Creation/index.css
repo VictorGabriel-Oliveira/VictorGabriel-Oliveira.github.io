@@ -28,16 +28,73 @@
       
 }
 
-.desktop .creations{
-    height: 400px;
-    width: 200px;
-    position: relative;
-    
+#deep_eart{
+    background-image: url('../../images/mobile/image-deep-earth.jpg');
+}
+#nigth_arcade{
+    background-image: url('../../images/mobile/image-night-arcade.jpg');
+}
+#soccer_team{
+    background-image: url('../../images/mobile/image-soccer-team.jpg');
+}
+#the_grid{
+    background-image: url('../../images/mobile/image-grid.jpg');
+}
+#from_up{
+    background-image: url('../../images/mobile/image-from-above.jpg');
+}
+#pocket_borealis{
+    background-image: url('../../images/mobile/image-pocket-borealis.jpg');
+}
+#curiosity{
+    background-image: url('../../images/mobile/image-curiosity.jpg');
+}
+#make_it{
+    background-image: url('../../images/mobile/image-fisheye.jpg');
 }
 
-.desktop .creations p{
-    width: 200px;
-    top: +300px;
-    font-size: 30px;
-    font-weight: 400;
+@media (min-width: 750px){
+    .creations{
+        height: 400px;
+        width: 200px;
+        position: relative;
+        margin-left: 4vw;
+        cursor: pointer;
+        transition: all ease  0.5s ;
+        
+    }
+    .creations:hover{
+      opacity: 0.6;
+    }
+    .creations p{
+        width: 200px;
+        top: +300px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    #deep_eart{
+        background-image:  url('../../images/desktop/image-deep-earth.jpg') ;
+    }
+    #nigth_arcade{
+        background-image: url('../../images/desktop/image-night-arcade.jpg');
+    }
+    #soccer_team{
+        background-image: url('../../images/desktop/image-soccer-team.jpg');
+    }
+    #the_grid{
+        background-image: url('../../images/desktop/image-grid.jpg');
+    }
+    #from_up{
+        background-image: url('../../images/desktop/image-from-above.jpg');
+    }
+    #pocket_borealis{
+        background-image: url('../../images/desktop/image-pocket-borealis.jpg');
+    }
+    #curiosity{
+        background-image: url('../../images/desktop/image-curiosity.jpg');
+    }
+    #make_it{
+        background-image: url('../../images/desktop/image-fisheye.jpg');
+    }
 }

@@ -1,9 +1,9 @@
 import './index.css'
 
-export default function Creation({type,text,background}){
+export default function Creation({text,id}){
     return(
-        <div style={{backgroundImage:`url(${background})`}} className={`creations ${type}`}>
-                                
+        <div id={id} className="creations">
+                       
             <p>
                 {text.first}
             </p>

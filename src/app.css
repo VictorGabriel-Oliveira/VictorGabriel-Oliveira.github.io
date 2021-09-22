@@ -121,8 +121,14 @@ footer{
     background-color: hsl(0, 0%, 0%);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 
+}
+
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer > img {
@@ -130,6 +136,10 @@ footer > img {
     margin-bottom: 20px;
 }
 
+.footer_links{
+    display: flex;
+    flex-direction: column;
+}
 footer a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
@@ -137,6 +147,7 @@ footer a{
     margin-top: 20px;
     
 }
+
 .social_midia{
     display: flex;
     align-items: center;
@@ -150,6 +161,141 @@ footer strong {
     color: hsl(0, 0%, 41%);
 }
 
-@media (min-width: 751px){
+@media (min-width: 750px){
+
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+    }
+    .header_conteiner{
+        position: relative;
+        background-image: url('./images/desktop/image-hero.jpg');
+    }
+    .header_menu{
+        
+        width: 30vw; 
+        justify-content: space-around;
+    }
+    
+    .header_menu a{
+        position: relative;
+        color: #fff;
+        text-decoration: none;  
+        
+    }
+    .header_menu a:before {
+        
+        content: "";
+        position: absolute;
+        width: 60%;
+        height: 3px;
+        bottom: -5px;
+        left: 20%;
+        background-color: #fff;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+      }
+    .header_menu a:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
+
+    .header_main{
+        position: relative;
+        left: -10vw;
+        width: 50vw;
+        height: 40vh;
+    }
+    .header_main h1{
+        letter-spacing: 5px;
+        height: 90%;
+        width: 80%;
+        font-size: 4em;
+        font-weight: 400;
+        margin: 40px 0px 0px 20px;
+    }
+    main{
+        position: relative;
+    }
+    .first_main{
+        position: relative;
+    }
+
+
+    .interactve_image{
+        position: relative;
+        background-image: url('./images/desktop/image-interactive.jpg');
+        height: 70vh;
+        width: 50vw;
+        left: -10vw;
+    }
+    .content{
+        position: relative;
+        height: 30vh;
+        width: 30vw;
+        text-align: start;
+        padding: 50px;
+        background-color: hsl(0, 0%, 100%);
+        top: -40vh;
+        left: 20vw;
+    }
+    .content h1{
+        letter-spacing: 5px;
+        font-weight: 300;
+        font-size: 40px;
+    }
+    .our_creations{
+        position: relative;
+        top: -20ch;
+        width: 90vw;
+    }
+    .our_creations h1{
+        position: relative;
+        right: 9.0cm;
+        
+    }
+    .creatiosn_conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+    .creations_content{
+        display: flex;
+        
+    }
+    .see_all{
+        position: relative;
+        float: left;
+        top: -100ch;
+        right: -11.7cm;
+    }
+    .see_all:hover{
+        cursor: pointer;
+        background-color: hsl(0, 0%, 0%);
+        color: hsl(0, 0%, 100%);
+       transition: all ease 0.5s;
+    }
+
+    footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer_links{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer_links a {
+        margin-right: 20px;
+    }
+    .social_midia *{
+        cursor: pointer;
+    }
     
 }
