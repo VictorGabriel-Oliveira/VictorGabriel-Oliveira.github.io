@@ -154,10 +154,10 @@ function App() {
                     </div>
                    <div  className="footer_content">
                         <div className="social_midia">
-                            <img  src={Facebook} alt="facebook"/>
-                            <img  src={Twitter} alt="twitter" />
-                            <img  src={Pinterest} alt="pinterest" />
-                            <img  src={Instagram} alt="instagram"/>
+                            <a href="#"><img  src={Facebook} alt="facebook"/></a>
+                            <a href="#"> <img  src={Twitter} alt="twitter" /></a>
+                            <a href="#"><img  src={Pinterest} alt="pinterest" /></a>
+                            <a href="#"><img  src={Instagram} alt="instagram"/></a>
                         </div>
                         <strong>© 2021 Loopstudios. All rights reserved.</strong>
                    </div>
